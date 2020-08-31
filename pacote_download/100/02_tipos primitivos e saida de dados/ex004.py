@@ -1,0 +1,10 @@
+print('********Status*******')
+sm = input('Digite algo ')
+
+print('Tipo primitivo', type(sm))
+print('É minuscula', sm.islower())
+print('É decimal', sm.isdecimal())
+print('É alfanumerico', sm.isalnum())
+print('É numerico', sm.isnumeric())
+print('É maiscula', sm.isupper())
+print('É alfa ', sm.isalpha())
